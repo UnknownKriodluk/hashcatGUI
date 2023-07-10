@@ -13,10 +13,14 @@ GUI для AirCrack-ng
 В Windows положить файл hashcatGUI.py в папку с hashcat.exe
 ### Установка зависимостей (LINUX)
 ```bash
-python -m pip install os_sys
+python3 -m pip install os_sys
 sudo apt/pacman/dnf/rpm/yum install python-tk (можно пропусить, но не всегда)
 ```
 ### Запуск программы
+```bash
+python3 hashcatGUI.py
+```
+или
 ```bash
 python hashcatGUI.py
 ```
