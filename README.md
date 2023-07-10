@@ -1,4 +1,4 @@
-# hashcat GUI
+# hashcat GUI (только для подбора WIFI паролей
 GUI для AirCrack-ng
 
 **ДЛЯ WINDOWS, LINUX И MACOS**
