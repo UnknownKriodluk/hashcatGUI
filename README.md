@@ -1,11 +1,9 @@
-# aircrack-ng GUI
+# hashcat GUI
 GUI для AirCrack-ng
 
 **ДЛЯ WINDOWS, LINUX И MACOS**
 
 Автоматически сохраняет handshake в указанный файл
-
-Поддерживает дистрибутивы Linux с одним из этих менеджеров пакетов: apt, dnf, yum, pacman
 
 **Протестирован на Manjaro 22.1.1 KDE + Python 3.10.10**
 
@@ -16,7 +14,7 @@ GUI для AirCrack-ng
 ### Установка зависимостей (LINUX)
 ```bash
 python -m pip install os_sys
-sudo apt/pacman/dnf/rpm install python-tk (можно пропусить, но не всегда)
+sudo apt/pacman/dnf/rpm/yum install python-tk (можно пропусить, но не всегда)
 ```
 ### Запуск программы
 ```bash
